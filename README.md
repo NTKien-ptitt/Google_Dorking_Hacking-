@@ -4,7 +4,8 @@
 ---
 ### Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)
 
-Google Dorking dựa trên các toán tử tìm kiếm nâng cao để truy xuất thông tin cụ thể từ cơ sở dữ liệu của Google. Dưới đây là các quy tắc phổ biến và ví dụ minh họa:
+Google Dorking dựa trên các toán tử tìm kiếm nâng cao để truy xuất thông tin cụ thể từ cơ sở dữ liệu của Google và kết hợp toán tử (a)^(a)|(A). 
+Dưới đây là các quy tắc phổ biến và ví dụ minh họa:
 
 ---
 
