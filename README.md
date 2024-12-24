@@ -1,5 +1,6 @@
 # Google_Dorking_Hacking-
 **Google Dorking** là kỹ thuật sử dụng các toán tử tìm kiếm nâng cao của Google để tìm kiếm thông tin nhạy cảm hoặc cấu hình không được bảo mật trên các website; hacker thường dùng để thu thập dữ liệu, xác định lỗ hổng bảo mật và chuẩn bị cho các cuộc tấn công.
+
 ---
 ### Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)
 
@@ -93,11 +94,58 @@ Google Dorking dựa trên các toán tử tìm kiếm nâng cao để truy xu�
 
 ---
 
-### Ứng dụng Hacker:  
-Hacker thường sử dụng Google Dorking để:  
-1. Tìm thông tin nhạy cảm như danh sách tài khoản, mật khẩu, file cấu hình.
-2. Khai thác thư mục công khai và dữ liệu không được bảo vệ.
-3. Xác định các lỗ hổng tiềm ẩn như URL dễ bị SQL Injection (`php?id=`).
+**`intext:`** là một toán tử tìm kiếm nâng cao trong Google Dorking, dùng để tìm kiếm **các từ khóa xuất hiện trong nội dung của trang web** (body text). Nó đảm bảo rằng kết quả trả về phải có chứa từ khóa trong nội dung văn bản, không chỉ trong tiêu đề hay URL.
+
+---
+
+### Cách sử dụng:
+- **Cú pháp:**  
+  ```
+  intext:<từ khóa>
+  ```
+- **Ví dụ:**  
+  ```
+  intext:"password"
+  ```
+  Kết quả sẽ là các trang web có chứa từ "password" trong nội dung của chúng.
+
+---
+
+### Các ví dụ kết hợp:
+1. **Tìm thông tin nhạy cảm cụ thể:**  
+   ```
+   intext:"username" intext:"password"
+   ```
+   Tìm các trang web có cả từ "username" và "password" trong nội dung.
+
+2. **Tìm kiếm các thông tin liên quan đến cấu hình AWS:**  
+   ```
+   intext:"aws_access_key_id" intext:"aws_secret_access_key"
+   ```
+   Tìm các trang có chứa thông tin khóa truy cập AWS.
+
+3. **Tìm kiếm tài liệu hoặc mã nguồn:**  
+   ```
+   intext:"BEGIN RSA PRIVATE KEY"
+   ```
+   Tìm các trang có chứa khóa RSA riêng tư (thường bị lộ do cấu hình sai).
+
+4. **Kết hợp với các toán tử khác:**  
+   ```
+   site:github.com intext:"password"
+   ```
+   Chỉ tìm các trang trên GitHub có chứa từ "password" trong nội dung.
+
+---
+
+### Mục đích sử dụng:
+- **Hợp pháp:**  
+  - Tìm tài liệu kỹ thuật hoặc thông tin công khai cần thiết.
+  - Kiểm tra bảo mật của hệ thống (như thông tin bị lộ qua nội dung công khai).
+- **Mục đích xấu (nếu không được phép):**  
+  - Tìm thông tin nhạy cảm như mật khẩu, khóa API, hoặc dữ liệu bảo mật khác trong các trang công khai.
+
+---
 
 ### Lưu ý:
-Việc sử dụng Google Dorking cần tuân thủ pháp luật và không được xâm phạm quyền riêng tư. Các thao tác chỉ nên thực hiện trong môi trường kiểm thử có sự cho phép.
+Việc sử dụng **`intext:`** để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
