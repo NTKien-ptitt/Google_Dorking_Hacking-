@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Dorking Rules</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        h3 { color: #2c3e50; }
+        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; }
+        code { color: #e74c3c; font-weight: bold; }
+        ul { margin: 10px 0; padding: 0 20px; }
+    </style>
+</head>
+<body>
+    <h3>Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)</h3>
+    <p>Google Dorking dựa trên các toán tử tìm kiếm nâng cao để truy xuất thông tin cụ thể từ cơ sở dữ liệu của Google và kết hợp toán tử (<code>a</code>)^(<code>a</code>)|(<code>A</code>).</p>
+
+    <h3>1. Tìm kiếm trong trang web cụ thể</h3>
+    <p><b>Toán tử:</b> <code>site:</code></p>
+    <p><b>Mục đích:</b> Tìm kiếm nội dung chỉ trong một tên miền cụ thể.</p>
+    <pre><code>site:example.com
+site:gov.vn "login"</code></pre>
+
+    <h3>2. Tìm kiếm theo tiêu đề trang</h3>
+    <p><b>Toán tử:</b> <code>intitle:</code></p>
+    <p><b>Mục đích:</b> Tìm kiếm từ khóa trong tiêu đề của trang web.</p>
+    <pre><code>intitle:"index of" "password"
+intitle:"login" "admin"</code></pre>
+
+    <h3>3. Tìm kiếm theo URL</h3>
+    <p><b>Toán tử:</b> <code>inurl:</code></p>
+    <p><b>Mục đích:</b> Tìm kiếm từ khóa xuất hiện trong URL.</p>
+    <pre><code>inurl:admin
+inurl:"php?id="</code></pre>
+
+    <h3>4. Tìm kiếm tệp cụ thể</h3>
+    <p><b>Toán tử:</b> <code>filetype:</code></p>
+    <p><b>Mục đích:</b> Tìm kiếm các loại tệp cụ thể như PDF, TXT, DOC, XLS.</p>
+    <pre><code>filetype:pdf "confidential"
+filetype:xls "username password"</code></pre>
+
+    <h3>5. Loại trừ kết quả không mong muốn</h3>
+    <p><b>Toán tử:</b> <code>-</code></p>
+    <p><b>Mục đích:</b> Loại bỏ các từ khóa hoặc nội dung không mong muốn khỏi kết quả.</p>
+    <pre><code>"password" -site:github.com
+intitle:"index of" -inurl:login</code></pre>
+
+    <h3>6. Tìm kiếm cụm từ chính xác</h3>
+    <p><b>Toán tử:</b> <code>""</code> (dấu ngoặc kép)</p>
+    <p><b>Mục đích:</b> Chỉ tìm kiếm các kết quả chứa cụm từ chính xác.</p>
+    <pre><code>"database backup"
+"admin login"</code></pre>
+
+    <h3>7. Tìm kiếm dữ liệu trên bản lưu trữ của Google</h3>
+    <p><b>Toán tử:</b> <code>cache:</code></p>
+    <p><b>Mục đích:</b> Truy cập phiên bản được lưu trữ trong bộ nhớ đệm của Google.</p>
+    <pre><code>cache:example.com</code></pre>
+
+    <h3>8. Tìm kiếm kết hợp nhiều toán tử</h3>
+    <pre><code>site:edu.vn filetype:pdf "exam answers"
+intitle:"index of" "admin" filetype:txt
+site:example.com inurl:"login" "username"</code></pre>
+
+    <h3>Sử dụng <code>intext:</code></h3>
+    <p><b>Mục đích:</b> Tìm kiếm các từ khóa xuất hiện trong nội dung của trang web (body text).</p>
+    <p><b>Cú pháp:</b></p>
+    <pre><code>intext:<từ khóa></code></pre>
+    <p><b>Ví dụ:</b></p>
+    <pre><code>intext:"password"</code></pre>
+
+    <h3>Các ví dụ kết hợp</h3>
+    <ul>
+        <li><b>Tìm thông tin nhạy cảm cụ thể:</b>
+            <pre><code>intext:"username" intext:"password"</code></pre>
+        </li>
+        <li><b>Tìm kiếm các thông tin liên quan đến cấu hình AWS:</b>
+            <pre><code>intext:"aws_access_key_id" intext:"aws_secret_access_key"</code></pre>
+        </li>
+        <li><b>Tìm kiếm tài liệu hoặc mã nguồn:</b>
+            <pre><code>intext:"BEGIN RSA PRIVATE KEY"</code></pre>
+        </li>
+        <li><b>Kết hợp với các toán tử khác:</b>
+            <pre><code>site:github.com intext:"password"</code></pre>
+        </li>
+    </ul>
+</body>
+</html>
