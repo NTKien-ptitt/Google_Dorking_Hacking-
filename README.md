@@ -1,4 +1,37 @@
 # Google_Dorking_Hacking 
+
+### [Google Dorking Hacking](#google_dorking_hacking)
+
+#### [Example: site:com.cn intitle:"index of" "username.txt"](#example)
+
+#### [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#cac_quy_tac_google_dorking)
+
+- 1. [Tìm kiếm trong trang web cụ thể](#tim_kiem_trang_web_cu_the)  
+- 2. [Tìm kiếm theo tiêu đề trang](#tim_kiem_theo_tieu_de_trang)  
+- 3. [Tìm kiếm theo URL](#tim_kiem_theo_url)  
+- 4. [Tìm kiếm tệp cụ thể](#tim_kiem_tep_cu_the)  
+- 5. [Loại trừ kết quả không mong muốn](#loai_tru_ket_qua)  
+- 6. [Tìm kiếm cụm từ chính xác](#tim_kiem_cum_tu_chinh_xac)  
+- 7. [Tìm kiếm dữ liệu trên bản lưu trữ của Google](#tim_kiem_du_lieu_tren_cache)  
+- 8. [Tìm kiếm kết hợp nhiều toán tử](#tim_kiem_ket_hop)
+
+#### [Cách sử dụng intext:](#cach_su_dung_intext)
+
+#### [Các ví dụ kết hợp](#vi_du_ket_hop)  
+
+- [Tìm thông tin nhạy cảm cụ thể](#tim_thong_tin_nhay_cam)  
+- [Tìm kiếm liên quan đến cấu hình AWS](#tim_cau_hinh_aws)  
+- [Tìm tài liệu hoặc mã nguồn](#tim_tai_lieu_ma_nguon)  
+- [Kết hợp với các toán tử khác](#ket_hop_toan_tu)  
+
+#### [Mục đích sử dụng](#muc_dich_su_dung)  
+
+- [Hợp pháp](#hop_phap)  
+- [Mục đích xấu](#muc_dich_xau)  
+
+#### [Lưu ý](#luu_y)  
+
+---
 ### Example: site:com.cn intitle:"index of" "username.txt"
 **Google Dorking** là kỹ thuật sử dụng các toán tử tìm kiếm nâng cao của Google để tìm kiếm thông tin nhạy cảm hoặc cấu hình không được bảo mật trên các website; hacker thường dùng để thu thập dữ liệu, xác định lỗ hổng bảo mật và chuẩn bị cho các cuộc tấn công.
 
