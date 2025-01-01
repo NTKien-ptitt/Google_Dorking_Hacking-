@@ -1,6 +1,8 @@
 
 # Google Dorking Hacking
 - [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#các-quy-tắc-tìm-kiếm-trong-google-dorking-google-hacking)
+
+  
   - [1. Tìm kiếm trong trang web cụ thể](#1-tìm-kiếm-trong-trang-web-cụ-thể)
   - [2. Tìm kiếm theo tiêu đề trang](#2-tìm-kiếm-theo-tiêu-đề-trang)
   - [3. Tìm kiếm theo URL](#3-tìm-kiếm-theo-url)
@@ -168,4 +170,5 @@ Dưới đây là các quy tắc phổ biến và ví dụ minh họa:
 
 ---
 
-# Lưu ý: Việc sử dụng `Google_Dorking_Hacking-` để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
+# Lưu ý 
+#Việc sử dụng `Google_Dorking_Hacking-` để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
