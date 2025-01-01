@@ -144,10 +144,11 @@ Dưới đây là các quy tắc phổ biến và ví dụ minh họa:
 - **Hợp pháp:**  
   - Tìm tài liệu kỹ thuật hoặc thông tin công khai cần thiết.
   - Kiểm tra bảo mật của hệ thống (như thông tin bị lộ qua nội dung công khai).
-- **Mục đích xấu (nếu không được phép):**  
-  - Tìm thông tin nhạy cảm như mật khẩu, khóa API, hoặc dữ liệu bảo mật khác trong các trang công khai.
+
+---
+# Mục đích xấu (nếu không được phép):**  
+  - Tìm thông tin nhạy cảm như mật khẩu, khóa API, hoặc dữ liệu bảo mật khác trong các trang công khai và không được pháp.
 
 ---
 
-### Lưu ý:
-Việc sử dụng **`intext:`** để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
+# Lưu ý: Việc sử dụng `Google_Dorking_Hacking-` để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
