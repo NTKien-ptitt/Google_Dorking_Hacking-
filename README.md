@@ -1,6 +1,6 @@
 
 # Google Dorking Hacking
-- [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#các-quy-tắc-tìm-kiếm-trong-google-dorking-google-hacking)
+1. [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#các-quy-tắc-tìm-kiếm-trong-google-dorking-google-hacking)
 
   
   - [1. Tìm kiếm trong trang web cụ thể](#1-tìm-kiếm-trong-trang-web-cụ-thể)
@@ -11,10 +11,10 @@
   - [6. Tìm kiếm cụm từ chính xác](#6-tìm-kiếm-cụm-từ-chính-xác)
   - [7. Tìm kiếm dữ liệu trên bản lưu trữ của Google](#7-tìm-kiếm-dữ-liệu-trên-bản-lưu-trữ-của-google)
   - [8. Tìm kiếm kết hợp nhiều toán tử](#8-tìm-kiếm-kết-hợp-nhiều-toán-tử)
-- [Cách sử dụng](#cách-sử-dụng)
-- [Các ví dụ kết hợp](#các-ví-dụ-kết-hợp)
-- [Mục đích sử dụng](#mục-đích-sử-dụng)
-- [Mục đích xấu (nếu không được phép)](#mục-đích-xấu-nếu-không-được-phép)
+2. [Cách sử dụng](#cách-sử-dụng)
+3. [Các ví dụ kết hợp](#các-ví-dụ-kết-hợp)
+4. [Mục đích sử dụng](#mục-đích-sử-dụng)
+5. [Mục đích xấu (nếu không được phép)](#mục-đích-xấu-nếu-không-được-phép)
 - [Lưu ý](#lưu-ý)
 
 ---
@@ -171,4 +171,4 @@ Dưới đây là các quy tắc phổ biến và ví dụ minh họa:
 ---
 
 # Lưu ý 
-#Việc sử dụng `Google_Dorking_Hacking-` để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
+## Việc sử dụng `Google_Dorking_Hacking-` để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
