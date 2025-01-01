@@ -14,7 +14,7 @@
 ### 3. [Các ví dụ kết hợp](#các-ví-dụ-kết-hợp)
 ### 4. [Mục đích sử dụng](#mục-đích-sử-dụng)
 ### 5. [Mục đích xấu (nếu không được phép)](#mục-đích-xấu-nếu-không-được-phép)
-# [Lưu ý](#lưu-ý)
+# [Lưu ý](#Lưu-ý)
 
 ---
 ### Example: site:com.cn intitle:"index of" "username.txt"
