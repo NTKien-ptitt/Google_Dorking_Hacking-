@@ -17,7 +17,7 @@
 
 # => [Lưu ý](#lưu-ý)
 ---
-### Example: site:com.cn intitle:"index of" "username.txt"
+
 **Google Dorking** là kỹ thuật sử dụng các toán tử tìm kiếm nâng cao của Google để tìm kiếm thông tin nhạy cảm hoặc cấu hình không được bảo mật trên các website; hacker thường dùng để thu thập dữ liệu, xác định lỗ hổng bảo mật và chuẩn bị cho các cuộc tấn công.
 
 ---
