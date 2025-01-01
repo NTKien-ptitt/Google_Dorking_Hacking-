@@ -1,35 +1,19 @@
-# Google_Dorking_Hacking 
 
-### [Google Dorking Hacking](#google_dorking_hacking)
-
-#### [Example: site:com.cn intitle:"index of" "username.txt"](#example)
-
-#### [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#cac_quy_tac_google_dorking)
-
-- 1. [Tìm kiếm trong trang web cụ thể](#tim_kiem_trang_web_cu_the)  
-- 2. [Tìm kiếm theo tiêu đề trang](#tim_kiem_theo_tieu_de_trang)  
-- 3. [Tìm kiếm theo URL](#tim_kiem_theo_url)  
-- 4. [Tìm kiếm tệp cụ thể](#tim_kiem_tep_cu_the)  
-- 5. [Loại trừ kết quả không mong muốn](#loai_tru_ket_qua)  
-- 6. [Tìm kiếm cụm từ chính xác](#tim_kiem_cum_tu_chinh_xac)  
-- 7. [Tìm kiếm dữ liệu trên bản lưu trữ của Google](#tim_kiem_du_lieu_tren_cache)  
-- 8. [Tìm kiếm kết hợp nhiều toán tử](#tim_kiem_ket_hop)
-
-#### [Cách sử dụng intext:](#cach_su_dung_intext)
-
-#### [Các ví dụ kết hợp](#vi_du_ket_hop)  
-
-- [Tìm thông tin nhạy cảm cụ thể](#tim_thong_tin_nhay_cam)  
-- [Tìm kiếm liên quan đến cấu hình AWS](#tim_cau_hinh_aws)  
-- [Tìm tài liệu hoặc mã nguồn](#tim_tai_lieu_ma_nguon)  
-- [Kết hợp với các toán tử khác](#ket_hop_toan_tu)  
-
-#### [Mục đích sử dụng](#muc_dich_su_dung)  
-
-- [Hợp pháp](#hop_phap)  
-- [Mục đích xấu](#muc_dich_xau)  
-
-#### [Lưu ý](#luu_y)  
+# Google Dorking Hacking
+- [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#các-quy-tắc-tìm-kiếm-trong-google-dorking-google-hacking)
+  - [1. Tìm kiếm trong trang web cụ thể](#1-tìm-kiếm-trong-trang-web-cụ-thể)
+  - [2. Tìm kiếm theo tiêu đề trang](#2-tìm-kiếm-theo-tiêu-đề-trang)
+  - [3. Tìm kiếm theo URL](#3-tìm-kiếm-theo-url)
+  - [4. Tìm kiếm tệp cụ thể](#4-tìm-kiếm-tệp-cụ-thể)
+  - [5. Loại trừ kết quả không mong muốn](#5-loại-trừ-kết-quả-không-mong-muốn)
+  - [6. Tìm kiếm cụm từ chính xác](#6-tìm-kiếm-cụm-từ-chính-xác)
+  - [7. Tìm kiếm dữ liệu trên bản lưu trữ của Google](#7-tìm-kiếm-dữ-liệu-trên-bản-lưu-trữ-của-google)
+  - [8. Tìm kiếm kết hợp nhiều toán tử](#8-tìm-kiếm-kết-hợp-nhiều-toán-tử)
+- [Cách sử dụng](#cách-sử-dụng)
+- [Các ví dụ kết hợp](#các-ví-dụ-kết-hợp)
+- [Mục đích sử dụng](#mục-đích-sử-dụng)
+- [Mục đích xấu (nếu không được phép)](#mục-đích-xấu-nếu-không-được-phép)
+- [Lưu ý](#lưu-ý)
 
 ---
 ### Example: site:com.cn intitle:"index of" "username.txt"
