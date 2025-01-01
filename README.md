@@ -1,8 +1,7 @@
 
 # Google Dorking Hacking
-1. [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#các-quy-tắc-tìm-kiếm-trong-google-dorking-google-hacking)
+### 1. [Các quy tắc tìm kiếm trong Google Dorking (Google Hacking)](#các-quy-tắc-tìm-kiếm-trong-google-dorking-google-hacking)
 
-  
   - [1. Tìm kiếm trong trang web cụ thể](#1-tìm-kiếm-trong-trang-web-cụ-thể)
   - [2. Tìm kiếm theo tiêu đề trang](#2-tìm-kiếm-theo-tiêu-đề-trang)
   - [3. Tìm kiếm theo URL](#3-tìm-kiếm-theo-url)
@@ -11,11 +10,11 @@
   - [6. Tìm kiếm cụm từ chính xác](#6-tìm-kiếm-cụm-từ-chính-xác)
   - [7. Tìm kiếm dữ liệu trên bản lưu trữ của Google](#7-tìm-kiếm-dữ-liệu-trên-bản-lưu-trữ-của-google)
   - [8. Tìm kiếm kết hợp nhiều toán tử](#8-tìm-kiếm-kết-hợp-nhiều-toán-tử)
-2. [Cách sử dụng](#cách-sử-dụng)
-3. [Các ví dụ kết hợp](#các-ví-dụ-kết-hợp)
-4. [Mục đích sử dụng](#mục-đích-sử-dụng)
-5. [Mục đích xấu (nếu không được phép)](#mục-đích-xấu-nếu-không-được-phép)
-- [Lưu ý](#lưu-ý)
+### 2. [Cách sử dụng](#cách-sử-dụng)
+### 3. [Các ví dụ kết hợp](#các-ví-dụ-kết-hợp)
+### 4. [Mục đích sử dụng](#mục-đích-sử-dụng)
+### 5. [Mục đích xấu (nếu không được phép)](#mục-đích-xấu-nếu-không-được-phép)
+# [Lưu ý](#lưu-ý)
 
 ---
 ### Example: site:com.cn intitle:"index of" "username.txt"
