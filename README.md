@@ -169,5 +169,3 @@ Dưới đây là các quy tắc phổ biến và ví dụ minh họa:
 
 ---
 
-# Lưu ý 
-## Việc sử dụng `Google_Dorking_Hacking-` để tìm kiếm thông tin nhạy cảm cần tuân thủ pháp luật. Hành vi khai thác hoặc sử dụng trái phép có thể bị xem là vi phạm pháp luật.
