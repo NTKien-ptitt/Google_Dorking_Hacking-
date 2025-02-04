@@ -12,10 +12,8 @@
   - [8. Tìm kiếm kết hợp nhiều toán tử](#8-tìm-kiếm-kết-hợp-nhiều-toán-tử)
 ### 2. [Cách sử dụng](#cách-sử-dụng)
 ### 3. [Các ví dụ kết hợp](#các-ví-dụ-kết-hợp)
-### 4. [Mục đích sử dụng](#mục-đích-sử-dụng)
-### 5. [Mục đích xấu (nếu không được phép)](#mục-đích-xấu-nếu-không-được-phép)
 
-# => [Lưu ý](#lưu-ý)
+
 ---
 
 **Google Dorking** là kỹ thuật sử dụng các toán tử tìm kiếm nâng cao của Google để tìm kiếm thông tin nhạy cảm hoặc cấu hình không được bảo mật trên các website; hacker thường dùng để thu thập dữ liệu, xác định lỗ hổng bảo mật và chuẩn bị cho các cuộc tấn công.
@@ -155,17 +153,6 @@ Dưới đây là các quy tắc phổ biến và ví dụ minh họa:
    site:github.com intext:"password"
    ```
    Chỉ tìm các trang trên GitHub có chứa từ "password" trong nội dung.
-
----
-
-### Mục đích sử dụng:
-- **Hợp pháp:**  
-  - Tìm tài liệu kỹ thuật hoặc thông tin công khai cần thiết.
-  - Kiểm tra bảo mật của hệ thống (như thông tin bị lộ qua nội dung công khai).
-
----
-# Mục đích xấu (nếu không được phép):**  
-  - Tìm thông tin nhạy cảm như mật khẩu, khóa API, hoặc dữ liệu bảo mật khác trong các trang công khai và không được pháp.
-
+[...]
 ---
 
